@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Search Modifier",
+    "version": "1.0",
+    "description": "Appends &udm=14 to search queries.",
+    "permissions": [
+      "declarativeNetRequest",
+      "declarativeNetRequestWithHostAccess",
+      "storage"
+    ],
+    "host_permissions": [
+      "*://*.google.com/*"
+    ],
+    "declarative_net_request": {
+      "rule_resources": [
+        {
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "rules.json"
+        }
+      ]
+    }
+  }
+  
