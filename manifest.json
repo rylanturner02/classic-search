@@ -3,6 +3,10 @@
     "name": "Classic Web Search",
     "version": "1.0",
     "description": "Automatically filters by Web results only.",
+    "icons": {
+      "48": "images/favicon-48.png",
+      "128": "images/favicon-128.png"
+    },
     "permissions": [
       "declarativeNetRequest",
       "declarativeNetRequestWithHostAccess"
