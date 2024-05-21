@@ -7,5 +7,3 @@ My inspiration came from [this Twitter thread](https://twitter.com/themckenziest
 The referenced article from [Tedium](https://tedium.co/2024/05/17/google-web-search-make-default/) is a great dive into workarounds for the aforementioned search bloat, however as the author notes, cusotmizing your default
 search engine is exclusive to browsers like Vivaldi, and does not work seamlessly on Google Chrome. As such, I developed this browser extention to automatically redirect a search to the 'Web' filter, which only displays relevant
 web results to a query.
-
-> TO-DO: Implement logic to avoid auto-redirect if user is trying to access other filter tabs.
