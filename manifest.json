@@ -1,15 +1,14 @@
 {
     "manifest_version": 3,
-    "name": "Search Modifier",
+    "name": "Classic Web Search",
     "version": "1.0",
-    "description": "Appends &udm=14 to search queries.",
+    "description": "Automatically filters by Web results only.",
     "permissions": [
       "declarativeNetRequest",
-      "declarativeNetRequestWithHostAccess",
-      "storage"
+      "declarativeNetRequestWithHostAccess"
     ],
     "host_permissions": [
-      "*://*.google.com/*"
+      "*://*.google.com/search*"
     ],
     "declarative_net_request": {
       "rule_resources": [
