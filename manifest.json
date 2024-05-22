@@ -1,27 +1,26 @@
 {
-    "manifest_version": 3,
-    "name": "Classic Web Search",
-    "version": "1.0",
-    "description": "Automatically filters by Web results only.",
-    "icons": {
-      "48": "images/favicon-48.png",
-      "128": "images/favicon-128.png"
-    },
-    "permissions": [
-      "declarativeNetRequest",
-      "declarativeNetRequestWithHostAccess"
-    ],
-    "host_permissions": [
-      "*://*.google.com/search*"
-    ],
-    "declarative_net_request": {
-      "rule_resources": [
-        {
-          "id": "ruleset_1",
-          "enabled": true,
-          "path": "rules.json"
-        }
-      ]
-    }
+  "manifest_version": 3,
+  "name": "Classic Web Search",
+  "version": "1.0",
+  "description": "Automatically filters by Web results only.",
+  "icons": {
+    "48": "images/favicon-48.png",
+    "128": "images/favicon-128.png"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "*://*.google.com/search*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
   }
-  
+}

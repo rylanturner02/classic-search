@@ -1,23 +1,22 @@
 [
-    {
-      "id": 1,
-      "priority": 1,
-      "action": {
-        "type": "redirect",
-        "redirect": {
-          "transform": {
-            "queryTransform": {
-              "addOrReplaceParams": [
-                { "key": "udm", "value": "14" }
-              ]
-            }
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "addOrReplaceParams": [
+              { "key": "udm", "value": "14" }
+            ]
           }
         }
-      },
-      "condition": {
-        "urlFilter": "*://www.google.com/search*&gs_lcrp=*",
-        "resourceTypes": ["main_frame"]
       }
+    },
+    "condition": {
+      "urlFilter": "*://www.google.com/search*&gs_lcrp=*",
+      "resourceTypes": ["main_frame"]
     }
-  ]
-  
+  }
+]
