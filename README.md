@@ -1,5 +1,7 @@
 # Classic Web Search Chrome extension
 
+Install the extension [here](https://chromewebstore.google.com/detail/classic-web-search/chmebcmhnnmkkkeafpejgoahehpjfgcl)!
+
 I wrote this Chrome extension with the purpose of simplifying the Google Search experience, as the company continously adds bloat including auto-generated snippets and AI-enhanced answers to search queries.
 
 My inspiration came from [this Twitter thread](https://twitter.com/themckenziest/status/1792630962108375118?t=DJv_-mjc6qO4xgtV4rwFJA) about users' disdains towards "knowledge panels" among other recent additions to Google Search.
